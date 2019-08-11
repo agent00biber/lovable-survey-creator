@@ -1,0 +1,14 @@
+- email verification
+- clear survey after publishing
+- copy to clipboard should only color the copied survey
+
+
+------------------ Bekannte Probleme --------------
+
+-- uneinheitliche CSS-Benennung
+-- verschiedene Methoden um Daten zu editieren
+-- prop validation
+-- einige Componenten zu groß
+-- springende navigation
+-- analytics-wrapper
+--

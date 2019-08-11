@@ -1,0 +1,31 @@
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    
+    match /users/{userID=**} {
+      allow read, create: if request.auth.token.email != null;
+      allow update, delete: if request.auth.uid == userID
+    }
+    
+     match /testers/{testerID=**} {
+  		allow read, create: if request.auth.uid != null;
+      allow delete, update: if false;
+    }
+    
+     match /surveys/{survey=**} {
+      allow read, create, update: if request.auth.uid != null;
+      allow delete: if false;
+    }
+    
+     match /feedback/{feedbackID=**} {
+      allow read, create, update: if request.auth.uid != null;
+      allow delete : if false;
+    }
+    
+     match /comments/{commentID=**} {
+      allow read, create, update: if request.auth.uid != null;
+      allow delete: if false;
+    }
+    
+  }
+}
