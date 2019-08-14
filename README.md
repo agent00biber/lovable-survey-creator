@@ -32,7 +32,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][public/img/pictures/screenshot.png]](https://lovable-survey-creator.firebaseapp.com/)
+[[Product Name Screen Shot][public/img/pictures/screenshot.png]](https://lovable-survey-creator.firebaseapp.com/)
 
 This is a vue-coded learning project and a future method of testing upcoming apps/features to get feedback early.
 
