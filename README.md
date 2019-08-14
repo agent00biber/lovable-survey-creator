@@ -8,13 +8,10 @@
 
   <p align="center">
     A small tool to create delightful surveys and analyze the results.
-
     <br />
     <br />
     <a href="https://lovable-survey-creator.firebaseapp.com/">View Website</a>
-    ·
     <a href="https://github.com/agent00biber/lovable-survey-creator/issues">Report Bug</a>
-    ·
     <a href="https://feedback-creator.firebaseapp.com/surveyczO0wWfxxlYvouKlzgmk">See a test survey</a>
 
   </p>
@@ -32,7 +29,7 @@
 
 ## About The Project
 
-[[Product Name Screen Shot][public/img/pictures/screenshot.png]](https://lovable-survey-creator.firebaseapp.com/)
+[public/img/pictures/screenshot.png](https://lovable-survey-creator.firebaseapp.com/)
 
 This is a vue-coded learning project and a future method of testing upcoming apps/features to get feedback early.
 
@@ -50,7 +47,7 @@ The app is structured in 3 tabs:
 - Analyze: Here you can see how your App is performing
 - Create: In a 3-step process you create a survey feature by (1) adding URLs and basic information, (2) adding questions and (3) previewing your feature. This step is repeated until you have sufficient features and publish it as a survey.
 
-This will give you a survey like this: [Test-survey](https://feedback-creator.firebaseapp.com/surveyczO0wWfxxlYvouKlzgmk).
+This will give you a survey like this: [Test-survey](https://feedback-creator.firebaseapp.com/surveyczO0wWfxxlYvouKlzgmk)
 (I hope you like salad :)
 
 <!-- ROADMAP -->
@@ -58,6 +55,7 @@ This will give you a survey like this: [Test-survey](https://feedback-creator.fi
 ## Roadmap
 
 If you find anything in this code, which is not a best practice or at least acceptable in any way, please tell me and open an [issue](https://github.com/agent00biber/lovable-survey-creator/issues). This is at this state a learning app and I need the feedback to grow.
+
 
 ### Features
 
@@ -68,6 +66,7 @@ If you find anything in this code, which is not a best practice or at least acce
   - a show password toggle
   - account-deletion
 
+
 ### Bugs to fix
 
 This could be a very long list but I will just state the most prominent bugs:
@@ -77,7 +76,8 @@ This could be a very long list but I will just state the most prominent bugs:
 - survey state object needs to be cleared after publishing
 - "copy to clipboard" should only color the selected survey and not all of them
 
-### code rewriting/refactoring opportunities
+
+### Rewriting/refactoring
 
 Because of so much progress during this project, some strategies and inputs came late into it and need to be established through out the whole app:
 
