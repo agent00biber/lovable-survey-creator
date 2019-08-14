@@ -29,7 +29,7 @@
 
 ## About The Project
 
-[public/img/pictures/screenshot.png](https://lovable-survey-creator.firebaseapp.com/)
+![Screenshot of the survey-app](https://lovable-survey-creator.firebaseapp.com/)
 
 This is a vue-coded learning project and a future method of testing upcoming apps/features to get feedback early.
 
