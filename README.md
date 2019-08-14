@@ -11,9 +11,10 @@
     <br />
     <br />
     <a href="https://lovable-survey-creator.firebaseapp.com/">View Website</a>
+    |
     <a href="https://github.com/agent00biber/lovable-survey-creator/issues">Report Bug</a>
+    |
     <a href="https://feedback-creator.firebaseapp.com/surveyczO0wWfxxlYvouKlzgmk">See a test survey</a>
-
   </p>
 </p>
 
@@ -56,7 +57,6 @@ This will give you a survey like this: [Test-survey](https://feedback-creator.fi
 
 If you find anything in this code, which is not a best practice or at least acceptable in any way, please tell me and open an [issue](https://github.com/agent00biber/lovable-survey-creator/issues). This is at this state a learning app and I need the feedback to grow.
 
-
 ### Features
 
 - At least one more question type (net promotor score (NPS) seems like a good fit for this)
@@ -66,7 +66,6 @@ If you find anything in this code, which is not a best practice or at least acce
   - a show password toggle
   - account-deletion
 
-
 ### Bugs to fix
 
 This could be a very long list but I will just state the most prominent bugs:
@@ -75,7 +74,6 @@ This could be a very long list but I will just state the most prominent bugs:
 - jumping navigation of the hamburger menu icon
 - survey state object needs to be cleared after publishing
 - "copy to clipboard" should only color the selected survey and not all of them
-
 
 ### Rewriting/refactoring
 
