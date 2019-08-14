@@ -10,9 +10,9 @@
     A small tool to create delightful surveys and analyze the results.
     <br />
     <br />
-    <a href="https://lovable-survey-creator.firebaseapp.com/">View Website</a>
+    <a href="https://lovable-survey-creator.firebaseapp.com/">View the website</a>
     |
-    <a href="https://github.com/agent00biber/lovable-survey-creator/issues">Report Bug</a>
+    <a href="https://github.com/agent00biber/lovable-survey-creator/issues">Report a bug</a>
     |
     <a href="https://feedback-creator.firebaseapp.com/surveyczO0wWfxxlYvouKlzgmk">See a test survey</a>
   </p>
@@ -70,7 +70,7 @@ If you find anything in this code, which is not a best practice or at least acce
 
 This could be a very long list but I will just state the most prominent bugs:
 
-- _after navigation between the different subtabs of Analyze, the navigation to the other routes fails_ (and I dont know why)
+- _after navigation between the different sub-tabs of "Analyze", the navigation to the other routes fails_ (and I don't know why)
 - jumping navigation of the hamburger menu icon
 - survey state object needs to be cleared after publishing
 - "copy to clipboard" should only color the selected survey and not all of them
