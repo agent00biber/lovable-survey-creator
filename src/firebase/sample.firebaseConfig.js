@@ -2,15 +2,18 @@ import { firebase } from "@firebase/app";
 import "@firebase/firestore";
 import "@firebase/auth";
 
+/*
+Add your initials here
 const config = {
-  apiKey: "AIzaSyBcXSKOjBOakhbQPHyD551jSRhqQqLeIIw",
-  authDomain: "feedback-creator.firebaseapp.com",
-  databaseURL: "https://feedback-creator.firebaseio.com",
-  projectId: "feedback-creator",
-  storageBucket: "feedback-creator.appspot.com",
-  messagingSenderId: "715056485843",
-  appId: "1:715056485843:web:b66a9710f88e0958"
+  apiKey: "...",
+  authDomain: "...",
+  databaseURL: "...",
+  projectId: "...",
+  storageBucket: "...",
+  messagingSenderId: "...",
+  appId: "..."
 };
+*/
 
 firebase.initializeApp(config);
 
