@@ -70,8 +70,9 @@ If you find anything in this code, which is not a best practice or at least acce
 
 This could be a very long list but I will just state the most prominent bugs:
 
-- _after navigation between the different sub-tabs of "Analyze", the navigation to the other routes fails_ (and I don't know why)
+- *after navigation between the different sub-tabs of "Analyze", the navigation to the other routes fails* (and I don't know why)
 - jumping navigation of the hamburger menu icon
+- video-element starts with no height and pops up after loading. The definied poster gets not loaded early enough do fix this
 - survey state object needs to be cleared after publishing
 - "copy to clipboard" should only color the selected survey and not all of them
 
